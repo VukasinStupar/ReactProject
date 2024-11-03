@@ -1,0 +1,92 @@
+/* logIn.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Professional font */
+  background-color: #f4f6f8; /* Soft light gray background */
+}
+
+.login-form-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: calc(100vh - 70px); /* Full height minus navbar height */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.login-form-wrapper {
+  background-color: #ffffff; /* White background for the form */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+  padding: 40px; /* Increased padding around the form */
+  width: 400px; /* Fixed width for a more spacious form */
+}
+
+h2 {
+  text-align: center; /* Centered heading */
+  color: #3c763d; /* Dark green color for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+}
+
+.input-group {
+  margin-bottom: 20px; /* Space between input groups */
+}
+
+.input-group label {
+  margin-bottom: 5px; /* Space below the label */
+  font-weight: 600; /* Bold labels */
+  color: #333; /* Dark gray for better readability */
+}
+
+.input-group input {
+  padding: 12px; /* Increased padding inside the input */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Slightly rounded corners for inputs */
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Include padding in width */
+  font-size: 16px; /* Consistent font size for better visibility */
+  transition: border-color 0.3s; /* Transition for border color */
+}
+
+.input-group input:focus {
+  border-color: #3c763d; /* Dark green border on focus */
+  outline: none; /* Remove default outline */
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  gap: 10px; /* Space between buttons */
+}
+
+.button-group button {
+  padding: 12px; /* Padding for buttons */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #3c763d; /* Dark green background */
+  color: white; /* White text */
+  font-size: 16px; /* Larger font size for buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Transition effect */
+}
+
+.button-group button:hover {
+  background-color: #2e592d; /* Darker green on hover */
+}
+
+.button-group button[type="button"] {
+  background-color: transparent; /* Transparent for the second button */
+  color: #3c763d; /* Dark green text */
+  border: 1px solid #3c763d; /* Dark green border */
+}
+
+.button-group button[type="button"]:hover {
+  background-color: #3c763d; /* Dark green background on hover */
+  color: white; /* White text on hover */
+}

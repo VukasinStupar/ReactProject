@@ -1,0 +1,33 @@
+.container1 {
+  padding-top: 60px; /* Adjust based on your navbar height */
+}
+
+.table-wrapper1 {
+  padding: 20px;
+  max-width: 800px; /* Set a max width for the table wrapper */
+  margin: 0 auto; /* Center the wrapper */
+}
+
+.search-fields {
+  display: flex; /* Use Flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping if necessary */
+  gap: 10px; /* Space between fields */
+  margin-bottom: 20px; /* Space below the search fields */
+}
+
+input {
+  padding: 10px;
+  flex: 1; /* Allow inputs to grow equally */
+  min-width: 150px; /* Minimum width for each input */
+  max-width: 200px; /* Max width for each input */
+}
+
+button {
+  padding: 10px;
+}
+
+/* Style for error message */
+.error-message {
+  color: red;
+  margin-top: 10px;
+}

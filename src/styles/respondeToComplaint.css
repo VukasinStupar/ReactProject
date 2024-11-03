@@ -1,0 +1,79 @@
+/* Container for the entire page */
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Styling for the Navbar */
+  .Navbar {
+    margin-bottom: 20px;
+  }
+  
+  /* Wrapper for the complaint details */
+  .complaint-details-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Styling for the complaint details section */
+  .complaint-details {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .complaint-details h2 {
+    margin-top: 0;
+  }
+  
+  .complaint-details p {
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  /* Styling for the response section */
+  .response-section {
+    margin-top: 20px;
+  }
+  
+  .response-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .response-section textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  .response-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .response-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error and loading messages */
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .loading-message {
+    font-style: italic;
+    color: #555;
+  }
+  

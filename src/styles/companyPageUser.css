@@ -1,0 +1,10 @@
+.company-info-container {
+    padding: 20px;
+    background-color: #f0f8f0; /* Light green background */
+    margin-top: 30px; /* Increased margin for more space under the navbar */
+  }
+  
+  .container {
+    margin-top: 20px; /* Additional space for the content */
+  }
+  

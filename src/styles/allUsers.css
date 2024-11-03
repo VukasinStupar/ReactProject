@@ -1,0 +1,92 @@
+/* allUsers.css */
+
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.table-wrapper {
+    overflow-x: auto; /* Allows horizontal scroll if table overflows */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+thead {
+    background-color: #f4f4f4;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Responsive table styles */
+@media (max-width: 768px) {
+    /* Wrapper to handle overflow */
+    .table-wrapper {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    /* Hide table headers on small screens */
+    thead {
+        display: none;
+    }
+
+    /* Convert table rows to block for better stacking */
+    tbody, tr {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* Style table cells to behave like rows */
+    td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        position: relative;
+        text-align: right;
+        border: 1px solid #ddd;
+    }
+
+    /* Add labels for table cells */
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 10px;
+        font-weight: bold;
+        text-align: left;
+        background-color: #f4f4f4;
+        border-right: 1px solid #ddd;
+    }
+
+    /* Align the data-label content properly */
+    td {
+        text-align: left;
+        padding-left: 50%;
+    }
+}

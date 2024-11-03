@@ -1,0 +1,88 @@
+/* userFutureReservations.css */
+.user-info-container {
+  padding-top: 60px; /* Prostor za navbar */
+  font-family: Arial, sans-serif; /* Promena fonta */
+}
+
+h2 {
+  color: green;
+  margin: 5px 0; /* Minimalni razmak ispod naslova */
+  text-align: center; /* Centriranje naslova */
+}
+
+.user-details {
+  margin: 0 auto; /* Centriranje kontejnera */
+  max-width: 600px; /* Maksimalna širina kontejnera */
+  background-color: #f9f9f9; /* Svetla pozadina */
+  border: 1px solid #ddd; /* Siva ivica */
+  border-radius: 8px; /* Zaobljeni uglovi */
+  padding: 15px; /* Unutrašnji razmak */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Blaga senka */
+}
+
+.detail-item {
+  margin-bottom: 8px; /* Razmak između detalja */
+}
+
+.detail-item strong {
+  color: green; /* Zeleni tekst za nazive */
+}
+
+.container {
+  margin: 0; /* Uklanja razmak između kontejnera */
+}
+
+.table-wrapper {
+  overflow-x: auto; /* Omogućava horizontalno skrolovanje ako je potrebno */
+  margin: 20px 0; /* Razmak između kontejnera i tabele */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0; /* Uklanja razmak između tabela */
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px; /* Malo veći padding */
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: green;
+  font-weight: bold; /* Podebljavanje naslova kolona */
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Sakriva prazne redove da ne bi zauzimali prostor */
+tbody tr {
+  display: table-row; /* Osigurava da redovi zauzimaju mesto kada su prazni */
+}
+
+tbody tr:not(:has(td:not(:empty))) {
+  display: none; /* Sakriva prazne redove */
+}
+
+/* Stil za dugme "Cancel Reservation" */
+button {
+  background-color: green; /* Zeleni pozadina */
+  color: white; /* Bela boja teksta */
+  border: none; /* Uklanja ivicu */
+  padding: 5px 10px; /* Veći padding za dugmad */
+  cursor: pointer; /* Kursor se menja u pointer */
+  border-radius: 4px; /* Zaobljeni uglovi */
+  transition: background-color 0.3s; /* Efekat prelaza na pozadini */
+}
+
+button:hover {
+  background-color: darkgreen; /* Tamnija zelena prilikom prelaska miša */
+}

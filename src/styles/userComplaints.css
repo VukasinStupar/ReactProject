@@ -1,0 +1,61 @@
+/* Container for the entire page */
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+  }
+  
+  /* Styling for the Navbar */
+  .Navbar {
+    margin-bottom: 20px;
+  }
+  
+  /* Wrapper for the table */
+  .table-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow-x: auto; /* Allows horizontal scrolling if needed */
+  }
+  
+  /* Styling for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  thead {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  td {
+    word-wrap: break-word; /* Ensures long text wraps within table cells */
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  

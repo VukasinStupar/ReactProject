@@ -1,0 +1,60 @@
+/* companyPageAdmin.css */
+.company-info-container {
+    padding-top: 60px; /* Prostor za navbar */
+}
+
+h2 {
+    color: green;
+    margin: 5px 0; /* Minimalni razmak ispod naslova */
+}
+
+.company-details {
+    margin-bottom: 5px; /* Minimalni razmak */
+}
+
+.detail-item {
+    margin-bottom: 3px; /* Minimalni razmak */
+}
+
+.container {
+    margin: 0; /* Uklanja razmak između kontejnera */
+}
+
+.table-wrapper {
+    overflow-x: auto; /* Omogućava horizontalno skrolovanje ako je potrebno */
+    margin: 0; /* Uklanja razmak oko wrappera */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0; /* Uklanja razmak između tabela */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 2px; /* Još manji padding */
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: green;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Sakriva prazne redove da ne bi zauzimali prostor */
+tbody tr {
+    display: table-row; /* Osigurava da redovi zauzimaju mesto kada su prazni */
+}
+
+tbody tr:not(:has(td:not(:empty))) {
+    display: none; /* Sakriva prazne redove */
+}

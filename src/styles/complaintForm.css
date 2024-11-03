@@ -1,0 +1,67 @@
+/* complaintForm.css */
+.container {
+  padding-top: 60px; /* Prostor za navbar */
+  font-family: Arial, sans-serif; /* Promena fonta */
+}
+
+.form-wrapper {
+  max-width: 500px; /* Maksimalna širina forme */
+  margin: 20px auto; /* Centriranje forme */
+  padding: 20px; /* Unutrašnji razmak */
+  background-color: #f9f9f9; /* Svetla pozadina */
+  border: 1px solid #ddd; /* Siva ivica */
+  border-radius: 8px; /* Zaobljeni uglovi */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Blaga senka */
+}
+
+h2 {
+  color: green; /* Zeleni naslov */
+  text-align: center; /* Centriranje naslova */
+  margin-bottom: 20px; /* Razmak ispod naslova */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Razmak između form grupa */
+}
+
+label {
+  font-weight: bold; /* Podebljan tekst za label */
+  display: block; /* Prikaz u blok modu */
+  margin-bottom: 5px; /* Razmak ispod label */
+}
+
+.radio-group {
+  display: flex; /* Flexbox za radio dugmad */
+  justify-content: space-between; /* Razmak između opcija */
+}
+
+select, textarea {
+  width: 100%; /* Širina 100% */
+  padding: 8px; /* Unutrašnji razmak */
+  margin-top: 5px; /* Razmak iznad selekta i textarea */
+  border: 1px solid #ccc; /* Svetla ivica */
+  border-radius: 4px; /* Zaobljeni uglovi */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Unutrašnja senka */
+  font-size: 14px; /* Veličina fonta */
+}
+
+textarea {
+  min-height: 100px; /* Minimalna visina za textarea */
+  resize: vertical; /* Omogućava vertikalno prebacivanje */
+}
+
+button {
+  background-color: green; /* Zeleni pozadina */
+  color: white; /* Bela boja teksta */
+  border: none; /* Uklanja ivicu */
+  padding: 10px 15px; /* Veći padding za dugmad */
+  cursor: pointer; /* Kursor se menja u pointer */
+  border-radius: 4px; /* Zaobljeni uglovi */
+  font-size: 16px; /* Veličina fonta */
+  transition: background-color 0.3s; /* Efekat prelaza na pozadini */
+  width: 100%; /* Dugme zauzima punu širinu */
+}
+
+button:hover {
+  background-color: darkgreen; /* Tamnija zelena prilikom prelaska miša */
+}

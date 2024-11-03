@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #bcd1dc;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background-color: #bcd1dc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #bcd1dc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .input-group label {
+    margin-right: 10px;
+    font-weight: bold;
+    width: 100px;
+  }
+  
+  .input-label {
+    margin-right: 2px;
+    font-weight: bold;
+  }
+  
+  .input-group input {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+  }
+  
+  .input-group select {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .button-group button {
+    margin-right: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .button-search {
+    width: 90px;
+    margin-left: 7px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .button-refresh {
+    width: 85px;
+    margin-left: 0px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #797979;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .button-group button[type="button"] {
+    background-color: #6c757d;
+  }
+  
+  .login-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #add8e6;
+  }
+  
+  .registration-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #add8e6;
+  }
+  
+  .login-form-wrapper {
+    background-color: #2e92a6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  .registration-form-wrapper {
+    background-color: #2e92a6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  .divLabel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 5px solid black;
+    height: auto;
+    width: 100%;
+  }
+  
+  
+  
+  .boldLabel {
+    border-top: black;
+    border-width: 5px;
+    font-size: medium;
+    font-weight: bold;
+  
+  }
